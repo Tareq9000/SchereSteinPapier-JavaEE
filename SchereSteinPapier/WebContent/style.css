@@ -1,0 +1,82 @@
+@charset "ISO-8859-1";
+
+.form{
+	border: 3px solid black;
+	text-align: center;
+	background-image: url(gelb3.jpg);
+
+	background-size: cover;
+	
+}
+body{
+	text-align: center;
+	background-image: url(sblue3.png);
+  /* Full height */
+	background-size: cover;
+
+}
+.button {
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #4CAF20;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+}
+
+.button:hover {
+	background-color: #3e8e41
+}
+
+.button:active {
+	background-color: #00ff00;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+input[type="text"] {
+  width: 10%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+input[type="number"] {
+  width: 10%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+input[type="radio"] {
+    background-color: #ddd;
+    border-radius: 10px;
+   
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+      border: 2px solid black;
+    -webkit-appearance: none;
+}
+input[type="checkbox"] {
+    background-color: #ddd;
+    border-radius: 10px;
+   
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 2px solid black;
+    -webkit-appearance: none;
+}
+
+
+
